@@ -1,3 +1,0 @@
-echo "🔍 Running lint & format check before commit..."
-npm run format
-npm run lint

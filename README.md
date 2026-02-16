@@ -1,84 +1,39 @@
-# 🌐 Learn Web - Company Profile 1
+# 🌐 Belajar Web - Profil Perusahaan 1
 
-Belajar membuat website **Company Profile** menggunakan **HTML, CSS, dan JavaScript** dari desain Figma.  
-Project ini dibuat untuk latihan dasar pembuatan website statis dengan struktur yang rapi dan reusable.
+Belajar membuat website **Profil Perusahaan** menggunakan **HTML, CSS, dan JavaScript**.
+Project ini dibuat untuk latihan dasar pembuatan website statis dengan struktur yang rapi dan dapat digunakan kembali.
 
-## 🎨 Desain Referensi
+## 🏗️ Struktur Project
 
-Figma: [Company Profile 1](https://www.figma.com/design/aBnOAnebUcb0h2ms8Kr4PN/Company-Profile--1?node-id=0-1&t=nr1ygIbD9HKuaO0i-1)
-
-![Thumbnail](https://github.com/user-attachments/assets/914a722f-b2c6-4734-a05f-f679c3deb12d)
-
-## 🏗️ Struktur Project (Starter Kit Saran)
-
-Berikut saran struktur folder yang simpel tapi scalable:
+Struktur file sederhana untuk pemula:
 
 ```
-learn-web-company-profile-1/
-├── assets/
-│   ├── images/
-│   ├── icons/
-│   ├── fonts/           # (optional)
-├── css/
-│   ├── style.css
-│   └── normalize.css
-├── js/
-│   └── main.js
-├── style.css
-├── index.html
-└── README.md
+project-web-sederhana/
+├── index.html     # File utama HTML
+├── style.css      # File stylesheet utama (sudah termasuk normalize)
+├── script.js      # File JavaScript utama
+└── README.md      # Dokumentasi project
 ```
 
-## ⚙️ Cara Pakai
+## ⚙️ Cara Menggunakan
 
-1. **Clone repository ini**
-
-   ```bash
-   git clone https://github.com/ngetikin/learn-web-company-profile-1.git
-   ```
-
-2. **Masuk ke folder project**
-
-   ```bash
-   cd learn-web-company-profile-1
-   ```
-
-3. **Buat branch baru untuk pembelajaran**
-   (gantilah `git checkout -b [nama-branch]` sesuai kebutuhanmu)
-
-   ```bash
-   git checkout -b learn
-   ```
-
-4. **Install semua dependency**
-   (pastikan sudah terinstall Node.js)
-
-   ```bash
-   npm install
-   ```
-
-5. **Jalankan project di local server**
-   menggunakan [Lite Server](https://github.com/johnpapa/lite-server)
-
-   ```bash
-   npm run dev
-   ```
-
-6. **Buka di browser**
-   Lite Server akan otomatis membuka project di `http://localhost:3000` (atau port lain jika 3000 sedang dipakai).
+1. **Buka file `index.html` di browser**
+   
+   Karena ini adalah website statis tanpa fitur responsive, cukup buka file `index.html` di browser kamu untuk melihat hasilnya.
 
 ## 🧠 Tujuan Belajar
 
-- Membiasakan struktur HTML semantik yang baik.
-- Mempelajari layout dengan CSS (Flexbox / Grid).
-- Menambahkan interaksi ringan dengan JavaScript.
-- Menyalin desain dari Figma secara akurat.
-- Latihan responsive design (mobile-first).
+- Memahami struktur HTML dasar.
+- Mempelajari styling dengan CSS.
+- Menambahkan interaksi sederhana dengan JavaScript.
+- Melatih penggunaan CSS variables dan normalize.css.
 
-## 🧑‍💻 Kontributor
+## 📁 Penjelasan File
 
-Dibuat oleh [Ngetikin Studio](https://github.com/ngetikin) sebagai proyek pembelajaran web dasar.
+- `index.html`: File utama yang berisi struktur halaman website
+- `style.css`: File CSS yang berisi normalize.css dan styling utama
+- `script.js`: File JavaScript untuk interaksi sederhana
 
-## 📄 Lisensi
+## 📝 Catatan
 
-Proyek ini bersifat **open-source** dan bebas digunakan untuk tujuan belajar.
+Project ini merupakan versi dasar tanpa fitur responsive design, cocok untuk pemula yang sedang belajar dasar-dasar web development.
