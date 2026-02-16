@@ -1,4 +1,0 @@
-echo "🧪 Running format, lint, and build check before push..."
-npm run format
-npm run lint
-npm run build

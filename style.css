@@ -1,4 +1,4 @@
-/* Normalize.css v8.0.1 - Key Examples */
+/* normalize.css v8.0.1 - Key Examples */
 
 /* Document */
 html {
@@ -44,4 +44,27 @@ textarea {
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
+}
+
+/* Main Stylesheet - Company Profile 1 Starter Kit */
+
+/* Reset base styles */
+* {
+  box-sizing: border-box;
+}
+
+/* Root variables (optional) */
+:root {
+  --primary-color: #1a1a1a;
+  --secondary-color: #555;
+  --bg-color: #fff;
+  --font-main: "Poppins", sans-serif;
+}
+
+/* Body setup */
+body {
+  font-family: var(--font-main);
+  color: var(--primary-color);
+  background-color: var(--bg-color);
+  line-height: 1.6;
 }
