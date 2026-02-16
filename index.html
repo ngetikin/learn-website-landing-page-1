@@ -1,9 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Company Profile 1</title>
+
+    <!-- Font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Debug Outline CSS -->
+    <link rel="stylesheet" href="./css/debug-outline.css" />
 
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="./css/normalize.css" />
@@ -11,46 +22,301 @@
     <!-- Main Style -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
+
   <body>
+    <!-- ================= NAVBAR ================= -->
     <!-- TODO: Navbar -->
     <!-- Logo + Navigation (Home, Service, Feature, Product, Testimonial, FAQ)
          + Login & Sign up button -->
-    
+    <section id="navbar">
+      <navbar class="container">
+        <img alt="logo image" src="./assets/images/navbar-logo-image.png" />
+        <div class="link-wrapper">
+          <a href="#"> Home </a>
+          <a href="#Service"> Service </a>
+          <a href="#Product"> Product </a>
+          <a href="#Testimonial"> Testimonial </a>
+          <a href="#FAQ"> FAQ </a>
+        </div>
+        <div class="button-wrapper">
+          <button class="login">Login</button>
+          <button class="signin">Sign Up</button>
+        </div>
+      </navbar>
+    </section>
+
+    <!-- ================= HERO SECTION ================= -->
     <!-- TODO: Hero Section -->
     <!-- Headline: "Lessons and insights from 8 years"
          Subtext + Register Button + Illustration (man + chart) -->
-    
+    <section id="hero">
+      <main class="container">
+        <div class="wrapper">
+          <div>
+            <h1>
+              Lessons and insights <br />
+              <span>from 8 years</span>
+            </h1>
+            <p>
+              Where to grow your business as a photographer: site or social
+              media?
+            </p>
+            <button>Register</button>
+          </div>
+          <img alt="hero img" src="./assets/images/hero-image.png" />
+        </div>
+      </main>
+      <div class="dot">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </section>
+
+    <!-- ================= CLIENTS SECTION ================= -->
     <!-- TODO: Clients Section -->
     <!-- Title: "Our Clients"
          Subtitle: "We have been working with some Fortune 500+ clients"
          Logos grid (6–8 client logos) -->
-    
-    <!-- TODO: Feature Section -->
+    <section id="our-clients">
+      <div class="container">
+        <h2>Our Clients</h2>
+        <p>We have been working with some Fortune 500+ clients</p>
+        <div class="images-wrapper">
+          <img
+            alt="ourclient logo 1"
+            src="./assets/images/our-client-logo-1.png"
+          />
+          <img
+            alt="ourclient logo 2"
+            src="./assets/images/our-client-logo-2.png"
+          />
+          <img
+            alt="ourclient logo 3"
+            src="./assets/images/our-client-logo-3.png"
+          />
+          <img
+            alt="ourclient logo 4"
+            src="./assets/images/our-client-logo-4.png"
+          />
+          <img
+            alt="ourclient logo 5"
+            src="./assets/images/our-client-logo-5.png"
+          />
+          <img
+            alt="ourclient logo 6"
+            src="./assets/images/our-client-logo-6.png"
+          />
+          <img
+            alt="ourclient logo 7"
+            src="./assets/images/our-client-logo-7.png"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= COMMUNITY SECTION ================= -->
+    <!-- TODO: Community Section -->
     <!-- Title: "Manage your entire community in a single system"
          3 Feature Cards:
             1. Membership Organisations
             2. National Associations
             3. Clubs and Groups -->
-    
+    <section id="community">
+      <div class="container">
+        <h2>Manage your entire community in a single system</h2>
+        <p>Who is Nextcent suitable for?</p>
+        <div class="community-wrapper">
+          <div>
+            <img
+              alt="Community Image Icon 1"
+              src="./assets/images/community-image-icon-1.png"
+            />
+            <h3>Membership Organisations</h3>
+            <p>
+              Our membership management software provides full automation of
+              membership renewals and payments
+            </p>
+          </div>
+          <div>
+            <img
+              alt="Community Image Icon 2"
+              src="./assets/images/community-image-icon-2.png"
+            />
+            <h3>National Associations</h3>
+            <p>
+              Our membership management software provides full automation of
+              membership renewals and payments
+            </p>
+          </div>
+          <div>
+            <img
+              alt="Community Image Icon 2"
+              src="./assets/images/community-image-icon-3.png"
+            />
+            <h3>Clubs And Groups</h3>
+            <p>
+              Our membership management software provides full automation of
+              membership renewals and payments
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HIGHLIGHT SECTION ================= -->
     <!-- TODO: Highlight Section -->
     <!-- Left illustration + Right text:
          "The unseen of spending three years at Pixelgrade"
          Paragraph + Learn More Button -->
-    
+    <section id="highlight">
+      <div class="container">
+        <img alt="Highlight Image" src="./assets/images/highlight.png" />
+        <div class="highlight-wrapper">
+          <h2>The unseen of spending three years at Pixelgrade</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
+            amet justo ipsum. Sed accumsan quam vitae est varius fringilla.
+            Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
+            tristique iaculis. Nullam pulvinar sit amet risus pretium auctor.
+            Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec
+            elementum pulvinar odio.
+          </p>
+          <button>Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= STATS SECTION ================= -->
     <!-- TODO: Stats Section -->
     <!-- Title: "Helping a local business reinvent itself"
          4 Stats (Members, Clubs, Event Bookings, Payments) -->
-    
-    <!-- TODO: Secondary Highlight Section -->
+    <section id="stats">
+      <div class="container">
+        <div class="heading">
+          <h2>
+            Helping a local <br />
+            <span>business reinvent itself</span>
+          </h2>
+          <p>We reached here with our hard work and dedication</p>
+        </div>
+        <div class="counts">
+          <div>
+            <img src="./assets/images/stats-icon-1.png" alt="Stats Icon 1" />
+            <div>
+              <span>2,245,341</span>
+              <p>Members</p>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/images/stats-icon-2.png" alt="Stats Icon 2" />
+            <div>
+              <span>46,328</span>
+              <p>Clubs</p>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/images/stats-icon-3.png" alt="Stats Icon 3" />
+            <div>
+              <span>828,867</span>
+              <p>Event Bookings</p>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/images/stats-icon-4.png" alt="Stats Icon 4" />
+            <div>
+              <span>1,926,436</span>
+              <p>Payments</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CALENDER SECTION ================= -->
+    <!-- TODO: Calender Section -->
     <!-- Illustration (mobile app) + Right text:
          "How to design your site footer like we did"
          Paragraph + Learn More Button -->
-    
+    <section id="calender">
+      <div class="container">
+        <img src="./assets/images/calender-image.png" alt=" Calender Image" />
+        <div>
+          <h2>How to design your site footer like we did</h2>
+          <p>
+            Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor,
+            augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque
+            elit erat a magna. Donec quis erat at libero ultrices mollis. In hac
+            habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi
+            facilisis finibus. In euismod augue vitae nisi ultricies, non
+            aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus
+            efficitur quis massa. Praesent felis est, finibus et nisi ac,
+            hendrerit venenatis libero. Donec consectetur faucibus ipsum id
+            gravida.
+          </p>
+          <button>Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TESTIMONIAL SECTION ================= -->
     <!-- TODO: Testimonial Section -->
     <!-- Testimonial card (Tesla logo, quote, person info)
          "Tim Smith – British Dragon Boat Racing Association"
          Client logos + "Meet all customers" link -->
-    
+    <section id="testimonial">
+      <div class="container">
+        <img src="./assets/images/customer-image.png" alt="Customer Image" />
+        <div class="content">
+          <p>
+            Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
+            lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
+            enim metus. Vivamus sed libero ornare, tristique quam in, gravida
+            enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit
+            at ligula molestie, nec molestie mi blandit. Suspendisse cursus
+            tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse
+            eget lorem eu turpis vestibulum pretium. Suspendisse potenti.
+            Quisque malesuada enim sapien, vitae placerat ante feugiat eget.
+            Quisque vulputate odio neque, eget efficitur libero condimentum id.
+            Curabitur id nibh id sem dignissim finibus ac sit amet magna.
+          </p>
+          <h3>Tim Smith</h3>
+          <span>British Dragon Boat Racing Association</span>
+          <div class="wrapper">
+            <img
+              alt="ourclient logo 1"
+              src="./assets/images/our-client-logo-1.png"
+            />
+            <img
+              alt="ourclient logo 2"
+              src="./assets/images/our-client-logo-2.png"
+            />
+            <img
+              alt="ourclient logo 3"
+              src="./assets/images/our-client-logo-3.png"
+            />
+            <img
+              alt="ourclient logo 4"
+              src="./assets/images/our-client-logo-4.png"
+            />
+            <img
+              alt="ourclient logo 5"
+              src="./assets/images/our-client-logo-5.png"
+            />
+            <img
+              alt="ourclient logo 6"
+              src="./assets/images/our-client-logo-6.png"
+            />
+            <a href="#">
+              <p>Meet all customers</p>
+              <img src="./assets/images/arrow-right.png" alt="Arrow Right" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BLOG SECTION ================= -->
     <!-- TODO: Blog Section -->
     <!-- Title: "Caring is the new marketing"
          3 Blog Cards:
@@ -58,17 +324,132 @@
             2. Safeguarding responsibilities and management
             3. Revamping Membership Model
          Each has image + title + Read More link -->
-    
+    <section id="blog">
+      <div class="container">
+        <h2>Caring is the new marketing</h2>
+        <p>
+          The Nexcent blog is the best place to read about the latest membership
+          insights, trends and more. See who's joining the community, read about
+          how our community are increasing their membership income and lot's
+          more.
+        </p>
+        <div class="content">
+          <div class="item">
+            <div class="item-image">
+              <img src="./assets/images/blog-image-1.png" alt="Blog Image 1" />
+            </div>
+            <div class="item-content">
+              <p>Creating Streamlined Safeguarding Processes with OneRen</p>
+              <a href="#">
+                <p>Readmore</p>
+                <img src="./assets/images/arrow-right.png" alt="Arrow Right" />
+              </a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-image">
+              <img src="./assets/images/blog-image-2.png" alt="Blog Image 2" />
+            </div>
+            <div class="item-content">
+              <p>
+                What are your safeguarding responsibilities and how can you
+                manage them?
+              </p>
+              <a href="#">
+                <p>Readmore</p>
+                <img src="./assets/images/arrow-right.png" alt="Arrow Right" />
+              </a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-image">
+              <img src="./assets/images/blog-image-3.png" alt="Blog Image 3" />
+            </div>
+            <div class="item-content">
+              <p>Revamping the Membership Model with Triathlon Australia</p>
+              <a href="#">
+                <p>Readmore</p>
+                <img src="./assets/images/arrow-right.png" alt="Arrow Right" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CTA SECTION ================= -->
     <!-- TODO: CTA Section -->
     <!-- Center text: "Pellentesque suscipit fringilla libero eu."
          Button: "Get a Demo" -->
-    
+    <section id="cta">
+      <h2>
+        Pellentesque suscipit <br />
+        fringilla libero eu.
+      </h2>
+      <button>
+        <span>Readmore</span>
+        <img src="./assets/images/arrow-right-white.png" alt="Arrow Right" />
+      </button>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
     <!-- TODO: Footer -->
     <!-- Logo + Copyright
          Company links (About, Blog, Contact, Pricing, etc)
          Support links (Help center, Terms, Privacy, Status)
          Newsletter input (Stay up to date)
          Social icons (Instagram, Facebook, Twitter, LinkedIn) -->
+    <footer id="footer">
+      <div class="container">
+        <div class="wrapper">
+          <img
+            src="./assets/images/footer-logo-image.png"
+            alt="Footer Logo Image"
+          />
+          <p>
+            Copyright © 2020 Nexcent ltd. <br />
+            All rights reserved
+          </p>
+          <div class="media">
+            <img src="./assets/images/instagram.png" alt="Instagram" />
+            <img src="./assets/images/dribbble.png" alt="Instagram" />
+            <img src="./assets/images/twitter.png" alt="Instagram" />
+            <img src="./assets/images/youtube.png" alt="Instagram" />
+          </div>
+        </div>
+
+        <div class="links">
+          <div class="link">
+            <h3>Company</h3>
+            <a href="#about-us">About Us</a>
+            <a href="#blog">blog</a>
+            <a href="#contact-us">Contact Us</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#testimonials">Testimonials</a>
+          </div>
+          <div class="link">
+            <h3>Support</h3>
+            <a href="#help-center">Help Center</a>
+            <a href="#terms-of-service">Terms of Service</a>
+            <a href="#legal">legal</a>
+            <a href="#priacy-policy">Privacy Policy</a>
+            <a href="#Status">Status</a>
+          </div>
+          <div class="link">
+            <h3>Stau Up to Date</h3>
+            <div class="input">
+              <input placeholder="Your email address" />
+              <img
+                src="./assets/images/footer-icon-input.png"
+                alt="Footer Icon Input"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Main Script -->
     <script src="./js/main.js"></script>
